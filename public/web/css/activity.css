@@ -1,0 +1,38 @@
+
+.myhot .hright dl dt .hotcontent {
+	
+	color: #fff;
+	display: none;
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 20px;
+	padding: 10px 20px;
+	text-align: left;
+	font-weight:normal;
+}
+
+.myhot .hright dl dt .hotcontent {
+	background-color: #111;
+	color: #fff;
+	display: none;
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 20px;
+	padding: 10px 20px;
+	text-align: left;
+	font-weight:normal;
+}
+.myhot .hright dl dt .hotcontent p, .myhot .hright dl dt .hotcontent li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+	
+}
+.myhot .hright dl dt .hotcontent strong {
+    color: #fff;
+    font-size: 18px;
+}
+/*#banner{height:290px;background-image:url('https://cdn.igsttech.com/Web.Portal/AW004-01.Portal/Content/Views/Promotion/images/banner.jpg')}
+#content{background-color:#f3eedb;background-image:url('https://cdn.igsttech.com/Web.Portal/BZ010-01.Portal/Content/Views/Promotion/images/bg.jpg')}#un-lobby{padding:0;border:1px solid #dacba1;background-color:#ede6c8}#un-lobby #unlobby-title{display:none}#un-lobby>div{padding:9px 8px 0;border:1px solid #dacba1;background-color:#f3eedb}ul.navtab{display:block;margin:10px 0 0;font-size:0}ul.navtab li{display:inline-block;min-width:86px;height:40px;margin-right:15px;color:#6a4f2b;font-size:14px;text-align:center;line-height:26px;background-position:center bottom;background-repeat:no-repeat}ul.navtab li.tab,ul.navtab li:hover{color:#c55129;background-image:url('https://cdn.igsttech.com/Web.Portal/BZ010-01.Portal/Content/Views/Promotion/images/text_bg.png')}ul.discount{margin:0 auto;padding:0;width:100%}ul.discount>li{width:100%}ul.discount>li:first-child{margin-bottom:5px}ul.discount>li:first-child>img{width:100%}ul.discount>li.content{padding:0 20px;color:#745d43;text-align:justify;overflow-x:auto}li.content img{}li.content h3{}li.content h4{}li.content h5{}li.content p{}li.content dd{margin-left:0}li.content table{width:100%}li.content table tr,li.content table th,li.content table td{line-height:2em;text-align:center}li.content table th{}li.content ol{padding-left:20px;list-style-type:decimal}li.content ul{padding-left:20px;list-style-type:disc}li.content ol li{}li.content .highlight{color:red}*/
+
+/*#content{background-color:#f3eedb;background-image:url('https://cdn.igsttech.com/Web.Portal/BZ010-01.Portal/Content/Views/Promotion/images/bg.jpg')}#un-lobby{width:998px;margin:0 auto;border:1px solid #f3eedb;background-color:#f3eedb}ul.navtab{width:100%;padding-left:40px;margin:20px 0 10px}ul.navtab li{float:left;min-width:80px;height:24px;margin-right:2px;color:#fab3ee;font-size:14px;text-align:center;line-height:24px;background:#6c1a5e;-moz-border-radius:5px 5px 0 0;-webkit-border-radius:5px 5px 0 0;border-radius:5px 5px 0 0}ul.navtab li.tab{color:#f3eedb;background:#f7b42c}ul.discount{margin:0 auto;padding:0 20px;width:100%}ul.discount>li{width:100%}ul.discount>li:first-child{margin-bottom:-15px}ul.discount>li:first-child>img{width:100%}ul.discount>li.content{color:#fff;text-align:justify;overflow-x:auto}li.content img{}li.content h3{}li.content h4{}li.content h5{}li.content p{}li.content dd{margin-left:0}li.content table{width:100%}li.content table tr,li.content table th,li.content table td{line-height:2em;text-align:center}li.content table th{}li.content ol{padding-left:20px;list-style-type:decimal}li.content ul{padding-left:20px;list-style-type:disc}li.content ol li{}li.content .highlight{color:red}*/
+#banner{height:250px;background:url('/bundles/yh/banner.jpg') no-repeat center}#content{padding-top:60px;background-image:url('https://cdn.igsttech.com/Web.Portal/LC001-01.Portal/Content/Views/Promotion/images/bg.jpg')}#un-lobby{min-height:400px;padding:10px 10px;border:1px solid #262626;background-color:#0e0e0e}ul.navtab{position:absolute;top:-50px;left:0;width:100%;height:50px;padding:0 10px;line-height:50px;background-color:#1b1b1b}ul.navtab li{float:left;min-width:62px;height:100%;margin-right:10px;color:#fff;font-size:12px;text-align:center}ul.navtab li.tab{color:#ffd053;background:url('https://cdn.igsttech.com/Web.Portal/LC001-01.Portal/Content/Views/Promotion/images/tab_bg.png') no-repeat center bottom}ul.discount{margin:0 auto;padding:0 10px;width:100%}ul.discount>li{width:100%}ul.discount>li:first-child{margin-bottom:5px}ul.discount>li:first-child>img{width:100%}ul.discount>li.content{color:#fff;text-align:justify;overflow-x:auto}li.content img{}li.content h3{}li.content h4{}li.content h5{}li.content p{}li.content dd{margin-left:0}li.content table{width:100%}li.content table tr,li.content table th,li.content table td{line-height:2em;text-align:center}li.content table th{}li.content ol{padding-left:20px;list-style-type:decimal}li.content ul{padding-left:20px;list-style-type:disc}li.content ol li{}li.content .highlight{color:red}

@@ -1,0 +1,61 @@
+#banner{height:250px;background:url('/bundles/live/banner.jpg') no-repeat center}
+
+#content{background-image:url('https://cdn.igsttech.com/Web.Portal/LC001-01.Portal/Content/Views/Lobby/Live/bg.jpg')}ul.game-list{padding:10px 0 0}ul.game-list>li{width:320px;height:200px;margin:0 5px 10px 5px}ul.game-list>li div.img{position:relative;height:200px;overflow:hidden}ul.game-list>li div.img:before{content:'';display:block;height:100%;background-repeat:no-repeat;background-position:center center;background-size:cover;-moz-transition:transform ease .4s;-o-transition:transform ease .4s;-webkit-transition:transform ease .4s;transition:transform ease .4s}ul.game-list>li div.img span{position:absolute;top:-80px;left:0;display:inline-block;width:100%;height:100%;opacity:0;background:url('https://cdn.igsttech.com/Web.Portal/BZ010-01.Portal/Content/Views/Lobby/Live/hov_bg.png') repeat;-moz-transition:all ease .4s;-o-transition:all ease .4s;-webkit-transition:all ease .4s;transition:all ease .4s}ul.game-list>li div.img span:before{content:'进入游戏';display:block;width:120px;margin:80px auto 0;color:#ffcf2e;font-size:16px;line-height:34px;text-align:center;border:2px solid #ffcf2e;-moz-border-radius:25px;-webkit-border-radius:25px;border-radius:25px}ul.game-list>li:hover div.img:before{-moz-transform:scale(1.1);-ms-transform:scale(1.1);-o-transform:scale(1.1);-webkit-transform:scale(1.1);transform:scale(1.1)}ul.game-list>li:hover div.img span{top:0;opacity:1}ul.game-list>li[game-box="big-size"]{width:650px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul.game-list>li[game-box="big-size"] div.img:before{background-image:url('/bundles/live/photo01.jpg')}
+
+ul.game-list>li[game-box="bb"] div.img:before{background-image:url('https://cdn.igsttech.com/Web.Portal/BZ010-01.Portal/Content/Views/Lobby/Live/bb.jpg')}
+
+ul.game-list>li[game-box="ag"] div.img:before{background-image:url('https://cdn.igsttech.com/Web.Portal/BZ010-01.Portal/Content/Views/Lobby/Live/ag.jpg')}
+
+ul.game-list>li[game-box="gpi"] div.img:before{background-image:url('https://cdn.igsttech.com/Web.Portal/BZ010-01.Portal/Content/Views/Lobby/Live/gpi.jpg')}
+
+ul.game-list>li[game-box="evo"] div.img:before{background-image:url('https://cdn.igsttech.com/Web.Portal/BZ010-01.Portal/Content/Views/Lobby/Live/evo.jpg')}
+
+ul.game-list>li[game-box="pt"] div.img:before{background-image:url('https://cdn.igsttech.com/Web.Portal/BZ010-01.Portal/Content/Views/Lobby/Live/pt.jpg')}
+
+ul.game-list>li[game-box="mg"] div.img:before{background-image:url('https://cdn.igsttech.com/Web.Portal/BZ010-01.Portal/Content/Views/Lobby/Live/mg.jpg')}
+ul.game-list>li[game-box="ab"] div.img:before{background-image:url('https://cdn.igsttech.com/Web.Portal/BZ010-01.Portal/Content/Views/Lobby/Live/ab.jpg')}
+
+ul.game-list>li[game-box="gd"] div.img:before{background-image:url('https://cdn.igsttech.com/Web.Portal/BZ010-01.Portal/Content/Views/Lobby/Live/gd.jpg')}
+
+ul.game-list>li[game-box="sb"] div.img:before{background-image:url('https://cdn.igsttech.com/Web.Portal/BZ010-01.Portal/Content/Views/Lobby/Live/sb.jpg')}
+
+ul.game-list>li[game-box="bg"] div.img:before{background-image:url('https://cdn.igsttech.com/Web.Portal/BZ010-01.Portal/Content/Views/Lobby/Live/bg_live.jpg')}
+ul.game-list>li[game-box="ebet"] div.img:before{background-image:url('https://cdn.igsttech.com/Web.Portal/BZ010-01.Portal/Content/Views/Lobby/Live/ebet.jpg')}
+
+ul.game-list>li[game-box="og"] div.img:before{background-image:url('https://cdn.igsttech.com/Web.Portal/BZ010-01.Portal/Content/Views/Lobby/Live/og.jpg')}
+
+ul.game-list>li[game-box="vg"] div.img:before{background-image:url('/bundles/live/vg.png')}
+
+ul.game-list>li[game-box="sa"] div.img:before{background-image:url('/bundles/live/sa.png')}
+
+ul.game-list>li[game-box="gt"] div.img:before{background-image:url('/bundles/live/gt.png')}
+
+ul.game-list>li[game-box="dg"] div.img:before{background-image:url('/bundles/live/dg.png')}
+
+ul.game-list>li[game-box="og"] div.img:before{background-image:url('https://cdn.igsttech.com/Web.Portal/BZ010-01.Portal/Content/Views/Lobby/Live/og.jpg')}
+
+
+ul.game-list>li[game-box="more"] div.img:before{background-image:url('https://cdn.igsttech.com/Web.Portal/BZ010-01.Portal/Content/Views/Lobby/Live/more.jpg')}ul.game-list>li[game-box="more"] div.img span:before{display:none}
+
+
+
+#banner1{height:300px;background-image:url('https://cdn.igsttech.com/Web.Portal/FU001-01.Portal/Content/Views/Lobby/Live/banner.jpg')}
+
+/*#lobby{padding:25px}*/
+
+

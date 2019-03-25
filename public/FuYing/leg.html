@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html ng-app="portalApp">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <title>太阳城集团 - 游戏导航</title>
+   <link rel="shortcut icon" href="https://www.fuying8.com/favicon.ico" />
+
+    <link href="https://cdn.igsttech.com/Web.Portal/_Common/Content/normalize/v3.0.1/normalize.min.css" rel="stylesheet"/>
+
+    <link href="https://cdn.igsttech.com/Web.Portal/_Common/Content/Views/Lobby/Navigation/jquery.mCustomScrollbar.min.css" rel="stylesheet" />
+    <link href="/bundles/Navigation.css?version=20171206" rel="stylesheet" />
+	
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/jquery/v1.12.4/jquery.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/angularjs/v1.2.14/angular.min.js"></script>
+
+    <!--[if lte IE 9]>
+        <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/placeholders.min.js"></script>
+        <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+<body ng-controller="LobbyNavCtrl" id="lobbyNav-body">
+    <iframe ng-src="/FuYing/playGame?plat_type=leg&game_type=7"></iframe>
+    <div class="style-container" style="display: none;"></div>
+
+    <script>
+        var _isUserLogin= 'True';
+    </script>
+
+    
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/angular-animate/v1.2.14/angular-animate.min.js"></script>
+
+    <script src="https://cdn.igsttech.com/Web.Portal/_Common/Scripts/angular-ui-bootstrap/v0.10.0/ui-bootstrap-custom-tpls-0.10.0.min.js"></script>
+
+    <script>
+        // ng-app
+        var app = angular.module('portalApp', ['ui.bootstrap', 'ngAnimate', 'slotGame', 'lobbyNav', 'reviewGame', 'portalShared']);
+    </script>
+    <script src="/Scripts/_config.js?version=20180920"></script>
+    <script src="/Scripts/i18n/labels_zh-CN.js"></script>
+    <script src="/angular-services.js?v=eDY7B_81HjxooEWMpxOzmVKoRWtJ6S4CvlJdCKIsjVA1"></script>
+
+    <script src="/angular-controllers.js?v=5Brf7vAB7qCN5d-qwzjSqEHs6owr7EigbjZc0vcGtHg1"></script>
+
+    <script src="/angular-directives.js?v=SwwFu-dkH7WEh5ZcaRJWQooUZ_MbFmvPBJ5Rb4LZrZ01"></script>
+
+    <script src="/angular-filters.js?v=mBmoSslPyFN5c-8zouAP0VDik9I4FZYYMeVnM8rOrXg1"></script>
+
+    <script src="/bundles/portal-shared.js?v=wLGfYWXbUwPicWpzOD2R2YVas4skgKsCq1Vo3r_dU2I1"></script>
+
+
+</body>
+</html>

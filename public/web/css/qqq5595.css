@@ -1,0 +1,29 @@
+
+
+/*首页居中banner*/
+
+.nivoSlider{position: relative;width:100%; height:480px;margin: 0 auto;}
+#au{width:100%; height:480px; overflow: hidden;}
+.mianbanner{position: relative; }
+.mianbanner li {left: 0; position: absolute; top: 0;}
+.mianbanner li a{display:block;width:1920px; height:480px;}
+.nivoSlider .lunbo{left:50%;position: absolute; bottom:40px; height:20px; width: 200px; margin-left: -100px;}
+.nivoSlider .lunbo ul{height: 18px;left: 395px;position: absolute; top: 14px;  width: 150px;}
+.nivoSlider .lunbo li {float:left;margin-left:10px; cursor:pointer; width:16px; height:16px;margin-left:3px;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    border-radius:12px;
+}
+.nivoSlider .lunbo .bg {background:#000; }
+.nivoSlider .lunbo .active{background:#fff;}
+.nivoSlider .nivo-prevNav,.nivoSlider .nivo-nextNav{ text-indent: -9999px; border:none; -moz-border-radius:32px;-webkit-border-radius:32px;border-radius:32px; display:none;  height:60px;  width:60px;
+    position:absolute; top:45%;  z-index:15;  cursor:pointer;}
+.nivo-prevNav { left:10px; background:url(../images/arrow-l1.png) no-repeat 13px 10px;}
+.nivo-nextNav { right:10px; background:url(../images/arrow-r1.png) no-repeat 18px 10px;}
+.nivo-prevNav:hover{background:url(../images/arrow-l1.png) no-repeat 13px 10px #af7526; border:2px solid #af7526;}
+.nivo-nextNav:hover{background:url(../images/arrow-r1.png) no-repeat 18px 10px #af7526; border:2px solid #af7526;}
+
+.sidecenter{ position: absolute;left:0;top:-30px;width:100%;height:478px;}
+.sideBtnflow{ height: 478px; margin: 0 auto; padding-left: 426px; position: relative;  width: 1016px;}
+/* Control nav styles (e.g. 1,2,3...) */
+

@@ -1,0 +1,71 @@
+﻿button:focus{border:none;outline: none;}
+
+.default_con{clear: both;margin-top: 175px;overflow: hidden;overflow: hidden;width: 1200px;margin-left: auto;margin-right: auto;}
+
+.user_con{clear: both;margin-top: 175px;border: 1px solid #e8e8e8;box-shadow: 0 0 5px rgba(0,0,0,.06);background: #f6f6f6;
+	overflow: hidden;overflow: hidden;}
+.user_con .user_left{width: 16.7%;}
+.user_con .user_right{padding: 0 2.5% 2% 2.5%;background: #fff;margin-left: 16.7%;font-size: 14px;box-shadow: 0 0 7px rgba(0,0,0,.06);
+	min-height: 800px}
+.user_con .user_left li .iconfont{font-size: 20px;margin-right: 10px;vertical-align:middle;color: #666}
+.user_con .user_left li a{display: inline-block;width: 100%;height: 68px;line-height: 68px;font-size: 14px;color: #444;
+	border-left: 2px solid #f6f6f6;padding-left: 60px;border-right: 1px solid #e8e8e8;background: url("../images/user-icon1.png") no-repeat 20px center;
+	border-bottom: 1px solid #e8e8e8}
+.user_con .user_left li:nth-child(2) a{
+    background-image: url("../images/user-icon2.png");
+}
+.user_con .user_left li:nth-child(3) a{
+    background-image: url("../images/user-icon3.png");
+}
+.user_con .user_left li:nth-child(4) a{
+    background-image: url("../images/user-icon4.png");
+}
+.user_con .user_left li:nth-child(5) a{
+    background-image: url("../images/user-icon5.png");
+}
+.user_con .user_left li.active a{border-left-color: #dd0000;color: #dd0000;border-right: 0;background-color: #fff;background-image: url("../images/user-icon1-1.png");}
+.user_con .user_left li:nth-child(2).active a{border-left-color: #dd0000;color: #dd0000;border-right: 0;background-color: #fff;background-image: url("../images/user-icon2-2.png");}
+.user_con .user_left li:nth-child(3).active a{border-left-color: #dd0000;color: #dd0000;border-right: 0;background-color: #fff;background-image: url("../images/user-icon3-3.png");}
+.user_con .user_left li:nth-child(4).active a{border-left-color: #dd0000;color: #dd0000;border-right: 0;background-color: #fff;background-image: url("../images/user-icon4-4.png");}
+.user_con .user_left li:nth-child(5).active a{border-left-color: #dd0000;color: #dd0000;border-right: 0;background-color: #fff;background-image: url("../images/user-icon5-5.png");}
+.user_con .user_left .active a .iconfont{color: #dd0000;}
+.userbasic_con{overflow: hidden;padding-top: 20px;border-bottom: 1px solid #e6e6e6;padding-bottom: 20px;}
+.userbasic_con .basic_left{width: 50%;float: left;border-right: 1px solid #e6e6e6}
+.userbasic_con .basic_right{width: 48%;float: left;margin-left: 2%}
+.userbasic_head{height: 68px;line-height: 68px;border-bottom: 1px solid #e8e8e8}
+.userbasic_head a{display: inline-block;padding: 0 45px;height: 67px;border-bottom: 2px solid #fff}
+.userbasic_head a.active{border-bottom: 2px solid #dd0000}
+.level_img{display: inline-block;height: 15px;overflow: hidden;width: 73px}
+.basic_module{padding-top: 20px}
+
+.user_con .tips{line-height: 38px;}
+.user_con .tips .name{color: #06f;margin-right: 15px}
+.level_tips{font-size: 12px;line-height: 20px}
+.level_line{display: inline-block;background: #eee; width: 200px; height: 6px; border-radius: 6px; overflow: hidden; margin: 6px 12px 0 10px;
+	position: relative;}
+.level_line .level{position: absolute;left: 0;top: 0;height: 6px;border-radius: 6px;background:#ff3a2b;
+	display: inline-block;}
+.level_tips .change_psw {color: #06f;margin-left: 10px}
+
+.basic_modify{margin-top: 10px}
+.basic_modify a{display: inline-block;color: #bbb;margin-right: 20px}
+.basic_modify a .iconfont{font-size: 22px;color: #ff3a2b;margin-right: 8px}
+.basic_modify .after{color: #333}
+.basic_modify .after .iconfont{color: #50ed92}
+
+.member_wrap{display: inline-block;width: 60px;height: 18px;line-height: 18px;color: #fff;text-align: center;border-radius: 20px;font-weight: 200;
+	background: #ff3a2b}
+.vp{background: #bdb6ba}
+.basic_right .level_line{width: 300px}
+.vip_tips{color: #bbb;margin-top: 15px}
+
+.refresh {
+    display: inline-block;
+    background: url(/web/images/bg-ico.png) no-repeat center center;
+    background-position: -80px -102px;
+    width: 18px;
+    height: 16px;
+    margin-left: 10px;
+    margin-top: 3px;
+    vertical-align: inherit;
+}

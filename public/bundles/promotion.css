@@ -1,0 +1,103 @@
+#un-lobby #unlobby-title{display:none}
+#banner{height:250px;background:url('/bundles/yh/banner.jpg') no-repeat center}
+/*#un-lobby{padding:10px 0;background:#282117;border:1px solid #382f22}
+ul.navtab{width:970px;margin:0 auto 10px}
+ul.navtab li{float:left;display:inline-block;margin-right:10px;padding:5px 18px;color:#fff;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px}
+ul.navtab li.tab{background:#e3ca5b;color:#282117}
+ul.discount{margin:0 auto}ul.discount>li:first-child{margin-bottom:5px}ul.discount>
+li.content{padding:10px 20px;color:#c2b095;text-align:left}
+li.content img{}li.content h3{}li.content h4{}li.content h5{}li.content p{color:#fff}
+li.content dd{margin-left:0}
+li.content table{width:100%}
+li.content table tr,li.content table th,
+li.content table td{border:1px solid #c2b095;line-height:2em;text-align:center}
+li.content table th{}
+li.content ol{padding-left:20px;list-style-type:decimal}
+li.content ul{padding-left:20px;list-style-type:disc}
+li.content ol li{}li.content .highlight{color:red}
+.myhot h3, .myhot h6{
+	margin:0px;
+	padding:0px;
+}*/
+.myhot {
+width:970px;margin:0 auto 10px
+}
+.myhot ul{
+padding:5px 5px;color:#c2b095;text-align:left
+}
+.myhot ul.hleft {
+    float: left;
+    width: 970px;
+}
+
+.myhot ul.hleft li {
+    margin: auto;
+    padding-top: 0px;
+    float: left;
+    margin-left:10px;
+}
+.myhot ul.hleft li:first-child {
+    padding-top: 0px;
+}
+.myhot ul.hleft li span {
+float:left;display:inline-block;margin-right:10px;padding:5px 18px;color:#fff;-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px
+}
+.myhot ul.hleft li span.ok, .myhot ul.hleft li span:hover {
+background:#e3ca5b;color:#282117
+}
+.myhot .hright dl dt .title {
+	display:block;
+	font-size:14px;
+	padding-bottom: 7px;
+	padding-top: 6px;
+	color: #fff;
+	margin-left:160px;
+	color:#ccc;
+	font-weight:600;
+	
+}
+.myhot .hright dl dt .actime {
+	display:block;
+	color: #ccc;
+	font-size: 14px;
+	font-weight:600;
+	position:absolute;
+	margin-top:-28px;
+	margin-left:700px;
+}
+button.applybtn{
+	border:0;
+}
+/*
+.applybtn {
+    position: absolute;
+    margin-left:370px;
+    margin-top: -50px;
+    color: #333;
+    padding: 38px 172px;
+    border-radius: 4px;
+    background-image:url('https://yhkf.cdnsudu.com/Web.Portal/FV001-01.Portal/Content/Views/Promotion/images/dt.png');
+}
+.applybtn:hover {
+	color:#000;
+}*/
+.myhot .hright dl dt .hotcontent {
+	background-color:#282117;
+	color: #fff;
+	display: none;
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 20px;
+	padding: 10px 20px;
+	text-align: left;
+	font-weight:normal;
+}
+.myhot .hright dl dt .hotcontent p, .myhot .hright dl dt .hotcontent li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+	
+}
+.myhot .hright dl dt .hotcontent strong {
+    color: #fff;
+    font-size: 18px;
+}
