@@ -94,7 +94,7 @@ class ApiController extends Controller
     public function gameOpen(Player $player,$gameId='1',$mobile='yes',$lang='zh-cn')
     {
         $params['username'] = $player->username;
-        $params['game_code'] = $gameId;
+        $params['game_code'] = $this->provider->api_id;
         $params['mobile'] = $mobile;
         if ($this->provider == 'NT' || $this->provider == 'GameArt' || $this->provider == 'GM') {
             $params['lang'] = $lang;

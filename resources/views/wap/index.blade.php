@@ -256,12 +256,12 @@
                                 @endif
                             @endforeach
                         </div>
-
-
                     </div>
                 </div>
             </div>
         </section>
+
+        
 
         <script>
             function game_open(obj){

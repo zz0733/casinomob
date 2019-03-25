@@ -3,6 +3,9 @@ function send_ajax(func,method,url,params={}){
         url: url,
         method: method,
         data: params,
+        beforeSend: function(){
+            $("#loading").show();
+          },
         success: function(message) {
             if (typeof func === "function")
                 func(message);
