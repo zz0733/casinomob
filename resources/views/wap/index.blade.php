@@ -266,16 +266,35 @@
         <script>
             function game_open(obj){
                 var o = $(obj);
-                console.log(o.attr("id"));
                 var param = {
                     provider:o.attr("id"),
                 };
-                send_ajax(game_open_blank,"GET",'/m/playGame',param);
-            }
-
-            function game_open_blank(message)
-            {
-                window.open(message);
+                var openGameWindow = window.open('','GameOpen');
+                $.ajax({
+                    url: '/m/playGame',
+                    method: 'GET',
+                    data: param,
+                    success: function(message) {
+                        if (typeof func === "function")
+                            func(message);
+                        else {
+                            openGameWindow.location.href = message;
+                        }
+                    },
+                    error: function(message) {
+                        var msg = JSON.stringify(JSON.parse(message.responseText).errors);
+                        if(!msg)
+                            msg = JSON.stringify(JSON.parse(message.responseText).message);
+                        swal({
+                            title: "Failed.",
+                            text: msg,
+                            icon: "error",
+                            dangerMode:true,
+                            confirmButtonText: 'Got it!'
+                        });
+                    }
+                });
+                // send_ajax(game_open_blank,"GET",'/m/playGame',param);
             }
 
         </script>
