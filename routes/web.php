@@ -34,6 +34,9 @@ Route::group(['prefix' => 'm','namespace' => 'Wap'],function($router){
 
     Route::get('activate-provider', 'IndexController@activateProvider');
     Route::get('balance', 'IndexController@balance');
+    Route::get('loading',function(){
+        return view('player.game.loading');
+    })->name('game.loading');
     
 });
 

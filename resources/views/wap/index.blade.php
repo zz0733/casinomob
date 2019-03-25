@@ -269,7 +269,7 @@
                 var param = {
                     provider:o.attr("id"),
                 };
-                var openGameWindow = window.open('','GameOpen');
+                var openGameWindow = window.open('/m/loading','Game Open');
                 $.ajax({
                     url: '/m/playGame',
                     method: 'GET',
