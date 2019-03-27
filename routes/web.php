@@ -21,7 +21,7 @@ Route::group(['namespace' => 'Wap'],function($router){
     Route::get('register', 'RegisterController@showRegisterForm')->name('wap.register.get');
 });
 
-Route::group(['prefix' => 'm','namespace' => 'Wap'],function($router){
+Route::group(['prefix' => '','namespace' => 'Wap'],function($router){
 	Route::get('/','IndexController@index')->name('wap.index');
 	Route::get('/activity_list','IndexController@activity_list')->name('wap.activity_list');
     Route::get('activity_detail/{id}', 'IndexController@activity_detail')->name('wap.activity_detail');

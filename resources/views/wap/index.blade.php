@@ -269,9 +269,9 @@
                 var param = {
                     provider:o.attr("id"),
                 };
-                var openGameWindow = window.open('/m/loading','Game Open');
+                var openGameWindow = window.open('/loading','Game Open');
                 $.ajax({
-                    url: '/m/playGame',
+                    url: '/playGame',
                     method: 'GET',
                     data: param,
                     success: function(message) {
