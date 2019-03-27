@@ -7,7 +7,7 @@
                 <ul>
                     @foreach($data as $k => $item)
                         <li>
-                            <a href="{{ route('wap.activity_detail', ['id' => $item->id]) }}">
+                            <a href="">
                                 <img src="{{ $item->title_img }}" alt="">
                             </a>
                         </li>

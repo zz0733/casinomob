@@ -11,7 +11,7 @@
         </li>
 
         <li class="financial">
-            <i class="fa fa-money" aria-hidden="true"></i>
+            <i class="fas fa-money-bill-alt" aria-hidden="true"></i>
             <a @if(Auth::guard('player')->guest()) onclick="location.href = '{{ route('wap.login') }}'" @else onclick="location.href= '{{ route('wap.nav') }}'" @endif>个人中心</a>
         </li>
         <li class="chat">
