@@ -15,15 +15,18 @@
     <link type="text/css" rel="stylesheet" href="{{ asset('/wap/css/mmenu.all.css') }}">
     <link type="text/css" rel="stylesheet" href="{{ asset('/wap/css/commonCss.css') }}">
     <script type="text/javascript" src="{{ asset('/wap/js/jquery.js') }}"></script>
-    <link href="https://cdn.igsttech.com/Web.Mobile/_Common/Content/normalize.css" rel="stylesheet"/>
+    
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet"/>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet"/>
 
-    <link href="https://cdn.igsttech.com/Web.Mobile/_Common/Content/jquery-ui/v1.11.3/jquery-ui.min.css" rel="stylesheet"/>
+   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.theme.min.css" rel="stylesheet"/>
 
-    <link href="https://cdn.igsttech.com/Web.Mobile/_Common/Content/jquery-ui/v1.11.3/jquery-ui.theme.min.css" rel="stylesheet"/>
-
-    <link href="https://cdn.igsttech.com/Web.Mobile/_Common/Content/font-awesome5.min.css" rel="stylesheet"/>
-
-    <link href="https://cdn.igsttech.com/Web.Mobile/_Common/Content/bootstrap/v3.3.6/bootstrap.min.css" rel="stylesheet"/>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css" rel="stylesheet"/>
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
 
     <link href="/wap/bundles/custom.css?v=BdJ4dm8B5DhhLC1t-7d0ULs9cdHl7HCBL_nm9Pvl3ko1" rel="stylesheet"/>
 
