@@ -12,9 +12,9 @@
                             <img class="trade-icon" src="{{ asset('/wap/images/m_userCenter-icon1.png') }}" alt="">
                             {{  $provider['name'] }}
                             @if($provider['active'] == 'yes')
-                                <button id="{{$provider['id']}}" value="{{$provider['name']}}" class="btn btn-success pull-right" onClick="balance(this)">Balance</button>
+                                <button id="{{$provider['id']}}" value="{{$provider['name']}}" class="btn btn-success pull-right" onClick="balance(this)">余额/转账</button>
                             @else
-                                <button id="{{$provider['id']}}" value="{{$provider['name']}}" class="btn btn-info pull-right" onClick="activate(this)">Activate</button>
+                                <button id="{{$provider['id']}}" value="{{$provider['name']}}" class="btn btn-info pull-right" onClick="activate(this)">激活平台</button>
                             @endif
                         </li>
                     @endforeach
@@ -28,7 +28,7 @@
             var param = {
                 provider:o.val(),
             };
-            send_ajax(parse_data,"GET",'/m/balance',param);
+            send_ajax(parse_data,"GET",'/balance',param);
         }
 
         function activate(obj){
@@ -36,7 +36,7 @@
             var param = {
                 provider:o.val(),
             };
-            send_ajax("Activate successfully!","GET",'/m/activate-provider',param);
+            send_ajax("Activate successfully!","GET",'/activate-provider',param);
         }
 
         function parse_data(message)
