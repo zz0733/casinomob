@@ -19,11 +19,8 @@ Route::group(['namespace' => 'Wap'],function($router){
     Route::post('login', 'LoginController@postLogin')->name('wap.login.post');
     Route::get('postrRegister', 'RegisterController@register')->name('wap.register.post');
     Route::get('register', 'RegisterController@showRegisterForm')->name('wap.register.get');
-});
-
-Route::group(['prefix' => '','namespace' => 'Wap'],function($router){
-	Route::get('/','IndexController@index')->name('wap.index');
-	Route::get('/activity_list','IndexController@activity_list')->name('wap.activity_list');
+    Route::get('/','IndexController@index')->name('wap.index');
+    Route::get('/activity_list','IndexController@activity_list')->name('wap.activity_list');
     Route::get('activity_detail/{id}', 'IndexController@activity_detail')->name('wap.activity_detail');
     Route::get('nav', 'IndexController@nav')->name('wap.nav');
     
@@ -34,7 +31,6 @@ Route::group(['prefix' => '','namespace' => 'Wap'],function($router){
     Route::get('loading',function(){
         return view('player.game.loading');
     })->name('game.loading');
-    
 });
 
 

@@ -294,7 +294,6 @@
                         });
                     }
                 });
-                // send_ajax(game_open_blank,"GET",'/m/playGame',param);
             }
 
         </script>
