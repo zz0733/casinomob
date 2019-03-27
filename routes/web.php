@@ -13,18 +13,15 @@
 
 Route::get('/','Wap\IndexController@index');
 
-Route::group(['namespace' => 'Player'],function($router){
-    Route::get('register','AuthController@register')->name('player.register');
-    Route::post('register','AuthController@register')->name('player.register.post');
-    Route::get('login','AuthController@login')->name('player.login');
-    Route::post('login','AuthController@login')->name('player.login.post');
-    Route::get('logout','AuthController@logout')->name('player.logout');
-});
-
-Route::group(['prefix' => 'm','namespace' => 'Wap'],function($router){
+Route::group(['namespace' => 'Wap'],function($router){
     Route::get('login', 'LoginController@showLoginForm')->name('wap.login');
     Route::any('logout', 'LoginController@logout')->name('wap.logout');
     Route::post('login', 'LoginController@postLogin')->name('wap.login.post');
+    Route::get('postrRegister', 'RegisterController@register')->name('wap.register.post');
+    Route::get('register', 'RegisterController@showRegisterForm')->name('wap.register.get');
+});
+
+Route::group(['prefix' => 'm','namespace' => 'Wap'],function($router){
 	Route::get('/','IndexController@index')->name('wap.index');
 	Route::get('/activity_list','IndexController@activity_list')->name('wap.activity_list');
     Route::get('activity_detail/{id}', 'IndexController@activity_detail')->name('wap.activity_detail');

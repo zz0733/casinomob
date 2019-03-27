@@ -29,7 +29,9 @@ function send_ajax(func,method,url,params={}){
                 icon: "error",
                 dangerMode:true,
                 confirmButtonText: 'Got it!'
-            });
+            }).then(function(){
+                    window.location.reload();
+                });
         }
     });
 }

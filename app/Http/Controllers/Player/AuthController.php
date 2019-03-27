@@ -56,7 +56,7 @@ class AuthController extends Controller
     {
         if ($request->isMethod('get'))
         {
-            return view('player.auth.register');
+            return view('wap.register');
         }
         else{
             try{
@@ -69,11 +69,11 @@ class AuthController extends Controller
                 $data['password'] = bcrypt($data['password']);
                 $data['withdraw_pwd'] = bcrypt($data['withdraw_pwd']);
                 Player::create($data);
-                return success($data,'Player registered successfully');
             }catch(Exception $ex)
             {
                 dd($ex->getMessage().'  '.$ex->getLine().' '.$ex->getFile());
             }
         }
+        return redirect()->route('wap.index');
     }
 }

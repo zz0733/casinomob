@@ -14,7 +14,7 @@ class LoginController extends Controller
 {
     use AuthenticatesUsers,ValidationTrait;
 
-//    protected $redirectTo = '/m';
+    protected $redirectTo = '/';
 //    protected $username;
 
     public function showLoginForm()

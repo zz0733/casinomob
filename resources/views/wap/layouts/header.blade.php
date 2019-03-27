@@ -10,7 +10,7 @@
             @if (Auth::guard('player')->guest())
                 <div class="btn-group" style="margin-top:-10px">
                     <a class="btn01" href="{{ route('wap.login') }}">登入 </a>
-                    <a class="btn02" href="{{ route('player.register') }}">免费开户</a>
+                    <a class="btn02" href="{{ route('wap.register.get') }}">免费开户</a>
                 </div>
             @else
                 <div class="btn-group" style="margin-top:-10px">
