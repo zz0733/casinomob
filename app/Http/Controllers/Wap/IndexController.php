@@ -70,7 +70,9 @@ class IndexController extends Controller
 
             if($request->provider == '3K')
             {
-                $url = parse_url($request->url,PHP_URL_FRAGMENT);
+                \Log::info($response->url);
+                $url = parse_url($response->url,PHP_URL_FRAGMENT);
+                \Log::info($url);
                 return 'http://159.89.167.78:8989#'.$url;
 
             }
