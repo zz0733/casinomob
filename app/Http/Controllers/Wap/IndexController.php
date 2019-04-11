@@ -22,6 +22,11 @@ class IndexController extends Controller
         return view('wap.index', compact('system_notices', 'banners'));
     }
 
+    public function gameList()
+    {
+        return view('wap.layouts.list_main');
+    }
+
     public function nav()
     {
         $player_providers = $this->getUserProviders();
@@ -61,7 +66,16 @@ class IndexController extends Controller
         if ($provider = Provider::where('api_name', $provider)->first()) {
             $app = new ApiController($provider);
             $response = $app->gameOpen(Auth::user());
-            return $response->url;
+
+
+            if($request->provider == '3K')
+            {
+                $url = parse_url($request->url,PHP_URL_FRAGMENT);
+                return 'http://159.89.167.78:8989#'.$url;
+
+            }
+            else
+                return $response->url;
         }
         else{
             return response()->json(['status' => 'failed', 'message' => '打开游戏失败']);
